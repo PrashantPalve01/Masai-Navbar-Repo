@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Navbar</title>
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #logo{
+            height: 50px;
+        }
+        nav div:first-child{
+            width: 10%;
+        }
+        nav div:nth-child(2){
+            width: 60%;
+        }
+        ul li{
+            display: inline;
+        }
+        a{
+            font-size: 16px;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .refer-btn{
+            background-color: rgb(245, 253, 255);
+            color: blue;
+            padding: 8px 20px;
+            border-radius: 5px;
+            border: none;
+            text-transform: uppercase;
+        }
+        #login{
+
+            border:1px solid salmon;
+            border-radius: 5px;
+            padding:10px;
+            color: salmon;
+            background-color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href=""><img src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="" id="logo"></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">couress</a></li>
+                <li><a href="">fees & ias</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">hire from us</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">events</a></li>
+                <li><button class="refer-btn">refer & earn <i class="fa-solid fa-hand-holding-heart"></i></button></li>
+                <li><button id="login">LOGIN</button></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
